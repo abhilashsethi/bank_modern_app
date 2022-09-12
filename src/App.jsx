@@ -9,7 +9,7 @@ import {
 	Navbar,
 	Stats,
 	Testimonials,
-	Hero,
+	Home,
 } from "./components";
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
 			{/* ------Hero Section--------- */}
 			<div className={`bg-primary ${styles.flexStart}`}>
 				<div className={`${styles.boxWidth}`}>
-					<Hero />
+					<Home />
 				</div>
 			</div>
 

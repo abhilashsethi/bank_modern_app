@@ -13,6 +13,9 @@ import {
 	send,
 	shield,
 	star,
+	microsoft,
+	android,
+	apple1,
 } from "../assets";
 
 export const navLinks = [
@@ -31,6 +34,24 @@ export const navLinks = [
 	{
 		id: "clients",
 		title: "Clients",
+	},
+];
+
+export const links = [
+	{
+		id: "apple",
+		img: apple1,
+		desc: "From Apple Store",
+	},
+	{
+		id: "android",
+		img: android,
+		desc: "From Play Store",
+	},
+	{
+		id: "microsoft",
+		img: microsoft,
+		desc: "From Windows Store",
 	},
 ];
 
