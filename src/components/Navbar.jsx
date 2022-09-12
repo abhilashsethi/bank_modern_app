@@ -9,16 +9,17 @@ const Navbar = () => {
 			<img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 			<ul className="list-none sm:flex hidden justify-end items-center flex-1">
 				{navLinks.map((nav, index) => {
-					console.log(nav, index);
+					// console.log(nav, index);
 					return (
-						<li
-							key={index}
-							className={`font-poppins font-normal cursor-pointer text-[16px] ${
-								index === navLinks.length - 1 ? "mr-0" : "mr-10"
-							} text-white`}
-						>
-							<a href={`#${nav.id}`}>{nav.title}</a>
-						</li>
+						<div key={index}>
+							<li
+								className={`font-poppins font-normal cursor-pointer text-[16px] ${
+									index === navLinks.length - 1 ? "mr-0" : "mr-10"
+								} text-white`}
+							>
+								<a href={`#${nav.id}`}>{nav.title}</a>
+							</li>
+						</div>
 					);
 				})}
 			</ul>

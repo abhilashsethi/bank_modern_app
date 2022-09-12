@@ -13,9 +13,17 @@ const CardDeal = () => {
 					Concepts are explained by expert teacher with the help of rich visuals
 					and storytelling.
 				</p>
+				<p className="font-poppins font-normal text-dimWhite text-lg leading-7 max-w-md">
+					Concepts are explained by expert teacher with the help of rich visuals
+					and storytelling
+				</p>
+				<p className="font-poppins font-normal text-dimWhite text-lg leading-7 max-w-md">
+					Concepts are explained by expert teacher with the help of rich visuals
+					and other technologies
+				</p>
 				<Button styles={`mt-10`} />
 			</div>
-
+			{/* "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]" */}
 			<div className={layout.sectionImg}>
 				<img src={card} alt="card" className={`w-full h-full`} />
 			</div>

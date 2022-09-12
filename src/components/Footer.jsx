@@ -46,12 +46,14 @@ const Footer = () => {
 				</p>
 				<div className="w-full flex items-center justify-end gap-6">
 					{socialMedia.map((social) => (
-						<div className=" p-1.5 rounded-full border-2 flex items-center justify-center hover:border-secondary hover:transition duration-300 ease-in-out">
+						<div
+							key={social.id}
+							className=" p-1.5 rounded-full border-2 flex items-center justify-center hover:border-secondary hover:transition duration-300 ease-in-out"
+						>
 							<img
-								key={social.id}
 								src={social.icon}
 								alt={social.id}
-								className={`w-6 h-6 rounded-full object-contain cursor-pointer `}
+								className={`w-6 h-6 rounded-full object-contain cursor-pointer`}
 							/>
 						</div>
 					))}

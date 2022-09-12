@@ -23,6 +23,7 @@ import twitter from "./twitter.svg";
 import microsoft from "./microsoft.png";
 import apple1 from "./apple1.png";
 import android from "./android.png";
+import education from "./education.gif";
 // import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
@@ -57,4 +58,5 @@ export {
 	microsoft,
 	apple1,
 	android,
+	education,
 };

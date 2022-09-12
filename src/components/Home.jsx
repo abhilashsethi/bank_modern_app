@@ -1,6 +1,7 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, robot, education } from "../assets";
 import GetStarted from "./GetStarted";
+
 const Home = () => {
 	return (
 		<section id="home" className={`flex md:flex-row flex-col ml-10`}>
@@ -37,9 +38,9 @@ const Home = () => {
 				className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
 			>
 				<img
-					src={robot}
+					src={education}
 					alt="billing"
-					className="w-[100%] h-[100%] relative z-[5]"
+					className="w-[100%] h-[100%] relative z-[5] rounded-lg"
 				/>
 
 				{/* gradient start */}
