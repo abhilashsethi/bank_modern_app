@@ -24,12 +24,13 @@ const Home = () => {
 					</div>
 				</div>
 				<h1 className="font-poppins font-semibold ss:text-6xl text-5xl text-white ss:leading-[100.8px] leading-[75px] w-full">
-					Payment Method.
+					Educational App.
 				</h1>
 				<p className={`${styles.paragraph} max-w-md mt-5`}>
-					Our team of experts uses a methodology to identify the credit cards
-					most likely to fit your needs. We examine annual percentage rates,
-					annual fees.
+					It is a social learning app for students, teachers, districts, and
+					schools. It can be used for communication,polling, assignments/quizzes
+					etc. Managing classes is much easier, and students can easily send
+					teachers individual messages or materials.
 				</p>
 			</div>
 			<div

@@ -35,13 +35,12 @@ const Business = () => {
 				className={`${layout.sectionInfo} sm:justify-center sm:items-center md:justify-start md:items-start`}
 			>
 				<h2 className={styles.heading2}>
-					You do the business, <br className="sm:block hidden" /> we’ll handle
-					the money.
+					Innovation and <br className="sm:block hidden" /> interactivity of the
+					app
 				</h2>
 				<p className={`${styles.paragraph} max-w-md mt-2`}>
-					With the right credit card, you can improve your financial life by
-					building credit, earning rewards and saving money. But with hundreds
-					of credit cards on the market.
+					Comprehensive teaching + learning system with homework, tests, monthly
+					reports and parent-teacher meetings
 				</p>
 				<Button styles="mt-10" />
 			</div>

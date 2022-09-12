@@ -11,7 +11,7 @@ const Footer = () => {
 				<div className="flex-1 flex flex-col justify-start mr-10">
 					<img src={logo} alt="hoobank" className="w-64 h-16 object-contain" />
 					<p className={`${styles.paragraph} mt-4 max-w-xs`}>
-						A new way to make the payments easy, reliable and secure.
+						It is a free education app for both students and teachers.
 					</p>
 				</div>
 				<div className="flex-[1.5] flex flex-row w-full justify-between flex-wrap md:mt-0 mt-10">
@@ -40,19 +40,20 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-2 border-t-gray-700">
-				<p className="font-poppins font-normal text-lg leading-7 text-white">
-					Copyright &#169; 2021 HooBank. All Rights Reserved.
+				<p className="font-poppins font-normal text-lg leading-7 text-white w-full">
+					Copyright &#169;{new Date().getFullYear()} HooBank. All Rights
+					Reserved.
 				</p>
-				<div className="flex flex-row md:mt-6 mt-0">
-					{socialMedia.map((social, index) => (
-						<img
-							key={social.id}
-							src={social.icon}
-							alt={social.id}
-							className={`w-5 h-5 object-contain cursor-pointer ${
-								index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-							}`}
-						/>
+				<div className="w-full flex items-center justify-end gap-6">
+					{socialMedia.map((social) => (
+						<div className=" p-1.5 rounded-full border-2 flex items-center justify-center hover:border-secondary hover:transition duration-300 ease-in-out">
+							<img
+								key={social.id}
+								src={social.icon}
+								alt={social.id}
+								className={`w-6 h-6 rounded-full object-contain cursor-pointer `}
+							/>
+						</div>
 					))}
 				</div>
 			</div>

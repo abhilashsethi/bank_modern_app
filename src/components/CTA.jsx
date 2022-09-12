@@ -1,5 +1,4 @@
 import styles from "../style";
-import Button from "./Button";
 import Links from "./Links";
 import { links } from "../constants";
 
@@ -9,10 +8,12 @@ const CTA = () => {
 			className={` ${styles.marginY} ${styles.padding} flex-col bg-black-gradient-2 rounded-[20px] box-shadow ml-10 mr-10`}
 		>
 			<div className="flex-1 flex flex-col">
-				<h2 className={`${styles.heading2}`}>Let’s try our service now!</h2>
+				<h2 className={`${styles.heading2}`}>
+					Get Your free Download of our App today!
+				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-					Everything you need to accept card payments and grow your business
-					anywhere on the planet.
+					It is a free education app for both students and teachers. It can be
+					used for communication,polling, assignments/quizzes etc.
 				</p>
 			</div>
 			<div

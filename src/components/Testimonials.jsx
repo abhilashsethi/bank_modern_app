@@ -15,8 +15,9 @@ const Testimonials = () => {
 				</h1>
 
 				<p className={`${styles.paragraph} text-left max-w-md`}>
-					Everything you need to accept card payments and grow your business
-					anywhere on the planet.
+					Our App is designed to help reduce the workload for a teacher and make
+					it easier to stay connected with your their classroom and their
+					students.
 				</p>
 			</div>
 			<div className="flex flex-wrap sm:justify-center justify-center w-full feedback-container">

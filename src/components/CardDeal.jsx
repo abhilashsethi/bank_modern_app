@@ -7,12 +7,11 @@ const CardDeal = () => {
 		<section className={`${layout.section} ml-10 mr-10`}>
 			<div className={layout.sectionInfo}>
 				<h2 className={styles.heading2}>
-					Find a better card deal <br className="sm:block hidden" /> in few easy
-					steps.
+					A 360° <br className="sm:block hidden" /> teaching + learning system
 				</h2>
 				<p className={`${styles.paragraph} max-w-md mt-5`}>
-					Arcus torpor, purus in mattis at sed integer faucibus. Aliquot quic
-					aliquot eger maurist torpor.ç Aliquot ultrafiches ac, ametek.
+					Concepts are explained by expert teacher with the help of rich visuals
+					and storytelling.
 				</p>
 				<Button styles={`mt-10`} />
 			</div>
